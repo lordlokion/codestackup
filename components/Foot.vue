@@ -8,7 +8,7 @@
       <div class="text-center font-bold text-3xl ">This is the heading</div>
       <div class="flex">
         <div class="flex w-1/3 mt-6 mx-4">
-          <img src="../public/images/cn1.png" class="h-24 w-24 rounded-full" />
+          <img src="" class="h-24 w-24 rounded-full" />
         </div>
         <div class="w-2/3 mt-6">
           <ul class="text-rhino-400 mb-11 text-sm">

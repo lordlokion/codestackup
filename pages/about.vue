@@ -136,12 +136,12 @@
           </h2>
           <img
             class="rounded-3xl mb-8 w-full lg:w-auto h-100 w-100  rounded-2xl object-fill"
-            src="/images/cn3.png"
+            src=""
             alt=""
           />
           <img
             class="rounded-3xl mb-8 w-full lg:w-auto h-100 w-100 rounded-2xl object-fill"
-            src="/images/cn2.png"
+            src=""
             alt=""
           />
         </div>
@@ -250,7 +250,7 @@
           </div>
           <img
             class="rounded-3xl w-full lg:w-auto h-100 w-100 rounded-2xl object-fill"
-            src="/images/cn1.png"
+            src=""
             alt=""
           />
         </div>
