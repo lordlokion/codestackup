@@ -5,10 +5,11 @@
     </h1>
     <p class="text-center">We will write something here.</p>
     <div class="w-full max-w-6xl container mx-auto flex items-center justify-center p-4 sm:p-10">
-      <div class="flex items-center space-x-4">
+      <div class="flex items-center space-x-2 sm:space-x-4">
+        <!-- Decreased space between buttons for small screens -->
         <button
           @click="prevSlide"
-          class="text-gray-500 px-2 py-1 rounded-full bg-white"
+          class="text-gray-500 px-1 py-1 rounded-full bg-white"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -16,7 +17,7 @@
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-4 h-4 sm:w-6 sm:h-6"
+            class="w-3 h-3 sm:w-6 sm:h-6"
           >
             <path
               stroke-linecap="round"
@@ -31,8 +32,8 @@
           :key="position"
           class="flex-none"
           :class="{
-            'w-32 h-32 sm:w-64 sm:h-64': position === centerPosition,
-            'w-16 h-16 sm:w-32 sm:h-32': position !== centerPosition,
+            'w-24 h-24 sm:w-32 sm:h-32': position === centerPosition,
+            'w-12 h-12 sm:w-16 sm:h-16': position !== centerPosition,
           }"
         >
           <img
@@ -47,7 +48,7 @@
 
         <button
           @click="nextSlide"
-          class="text-gray-500 px-2 py-1 rounded-full bg-white"
+          class="text-gray-500 px-1 py-1 rounded-full bg-white"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -55,7 +56,7 @@
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-4 h-4 sm:w-6 sm:h-6"
+            class="w-3 h-3 sm:w-6 sm:h-6"
           >
             <path
               stroke-linecap="round"
@@ -68,6 +69,7 @@
     </div>
   </div>
 </template>
+
 
 <script setup>
 import { ref } from "vue";
