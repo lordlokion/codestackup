@@ -1,36 +1,33 @@
 <template>
-  <div style="background: linear-gradient(to bottom, #ffffff, #ffffff)">
-    <h1 class="text-center font-bold text-4xl tracking-wider pt-20">
-      OUR WORK
-      <img
-        src="/icon/line_icon.png"
-        class="w-max h-12 item-center max-w-6xl mx-auto"
-      />
-    </h1>
-  </div>
-  <p class="text-center">We Will write something here.</p>
-  <div class="flex max-w-6xl mx-auto p-6" style="background-color: #ffffff">
-    <div
-      v-for="(service, index) in services"
-      :key="index"
-      class="flex-shrink-0 w-1/4 mx-4"
-    >
-      <NuxtLink
-        :to="`/services/${service.title.replace(/\s+/g, '-').toLowerCase()}`"
-      >
-        <div class="service-box p-6 bg-white rounded-lg shadow-md">
-          <div class="icon light mb-4">
-            <img
-              :src="service.lightIconUrl"
-              :alt="service.altText"
-              decoding="async"
-              class="w-12 h-12"
-            />
+  <div>
+    <div class="bg-gradient-to-b from-white via-white to-white">
+      <h1 class="text-center font-bold text-4xl tracking-wider pt-20">
+        OUR WORK
+        <img
+          src="/icon/line_icon.png"
+          class="w-max h-12 mx-auto"
+        />
+      </h1>
+    </div>
+    <p class="text-center">We will write something here.</p>
+
+    <div class="flex flex-wrap justify-center max-w-6xl mx-auto p-6">
+      <div v-for="(service, index) in services" :key="index" class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 p-4">
+        <NuxtLink :to="`/services/${service.title.replace(/\s+/g, '-').toLowerCase()}`">
+          <div class="service-box p-6 bg-white rounded-lg shadow-md">
+            <div class="icon light mb-4">
+              <img
+                :src="service.lightIconUrl"
+                :alt="service.altText"
+                decoding="async"
+                class="w-12 h-12 mx-auto"
+              />
+            </div>
+            <p class="text-lg font-semibold mb-2">{{ service.title }}</p>
+            <div class="text-gray-600">{{ service.description }}</div>
           </div>
-          <p class="text-lg font-semibold mb-2">{{ service.title }}</p>
-          <div class="text-gray-600">{{ service.description }}</div>
-        </div>
-      </NuxtLink>
+        </NuxtLink>
+      </div>
     </div>
   </div>
 </template>
@@ -58,8 +55,7 @@ const services = [
       "Developing software that stands the test of time requires a strong foundation. Our Software Design & Architecture services provide just that.",
   },
   {
-    lightIconUrl:
-      "",
+    lightIconUrl: "/images/API1.svg",
     title: " API Development",
     description:
       "Connect and empower your applications with our API Development services. We ensure a smooth and efficient integration process,  bridging the digital divide",

@@ -1,15 +1,13 @@
 <template>
   <div style="background: linear-gradient(to bottom, #e8f0d2, #eefadf)">
     <div
-      class="flex max-w-6xl container mx-auto items-center pt-10 justify-between"
+      class="flex flex-col sm:flex-row max-w-6xl container mx-auto items-center pt-10 justify-between"
     >
       <!-- Left side content -->
-      <div class="w-1/2 p-8 h-full">
+      <div class="sm:w-full p-8 h-full"> <!-- Updated class here -->
         <span class="bg-black rounded-full text-white px-4 py-2 mx-1">WEB</span>
         <span class="bg-black rounded-full text-white px-4 py-2 mx-1">IOS</span>
-        <span class="bg-black rounded-full text-white px-4 py-2 mx-1"
-          >ANDROID</span
-        >
+        <span class="bg-black rounded-full text-white px-4 py-2 mx-1">ANDROID</span>
 
         <div class="text-container mb-10">
           <div class="uppercase">
@@ -20,16 +18,16 @@
             </h1>
           </div>
           <p>
-            We will write something here, the text will be writen here loreal
-            pixel. We will write something here, the text will be writen here
-            loreal pixel. We will write something here, the text will be writen
+            We will write something here, the text will be written here loreal
+            pixel. We will write something here, the text will be written here
+            loreal pixel. We will write something here, the text will be written
             here loreal pixel.
           </p>
         </div>
         <NuxtLink to="/talktous">
-          <div class="flex">
+          <div class="flex mt-4 sm:mt-0">
             <div
-              class="w-1/2 flex bg-blue-200 text-black px-8 py-4 font-semibold  rounded-md text-xl bg-green-400 hover:bg-green-500"
+              class="w-full sm:w-1/2 flex bg-blue-200 text-black px-8 py-4 font-semibold rounded-md text-xl bg-green-400 hover:bg-green-500"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +50,7 @@
       </div>
 
       <!-- Right side image -->
-      <div class="col-md-6 order-1 order-md-3 w-1/2 h-full relative">
+      <div class="sm:col-md-6 order-1 order-md-3 w-full sm:w-1/2 h-full relative">
         <div class="image-container h-full overflow-hidden">
           <div class="text-center">
             <Anim loc="/anim/home.json" />
@@ -74,3 +72,13 @@ onMounted(() => {
   }, 5000);
 });
 </script>
+
+<style scoped>
+/* Additional styles for responsiveness */
+
+@media only screen and (max-width: 768px) {
+  .sm:w-full {
+    width: 100%;
+  }
+}
+</style>

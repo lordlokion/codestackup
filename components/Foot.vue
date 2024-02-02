@@ -1,17 +1,17 @@
 <template>
-  <div class="max-w-6xl mx-auto flex">
+  <div class="max-w-6xl mx-auto flex flex-col md:flex-row">
     <!-- Contact Section -->
     <div
-      class="w-1/3 rounded-2xl h-60 mb-10 p-4"
+      class="w-full md:w-1/3 rounded-2xl mb-10 p-4"
       style="background: linear-gradient(to bottom, #e8f0d2, #ffffff)"
     >
-      <div class="text-center font-bold text-3xl ">This is the heading</div>
-      <div class="flex">
-        <div class="flex w-1/3 mt-6 mx-4">
-          <img src="" class="h-24 w-24 rounded-full" />
+      <div class="text-center font-bold text-3xl mb-4">This is the heading</div>
+      <div class="flex flex-col md:flex-row items-center">
+        <div class="flex w-full md:w-1/3 mt-6 mx-4">
+          <img src="" class="h-24 w-24 rounded-full" alt="Profile Image" />
         </div>
-        <div class="w-2/3 mt-6">
-          <ul class="text-rhino-400 mb-11 text-sm">
+        <div class="w-full md:w-2/3 mt-6">
+          <ul class="text-rhino-400 mb-4 md:mb-0 text-sm">
             <li class="mb-3">Call us at: 1-888-699-8900</li>
             <li>Email: hello@codestackup.com</li>
           </ul>
@@ -20,10 +20,10 @@
     </div>
 
     <!-- Menu Section -->
-    <div class="w-1/3 border-r-2 border-lime-600 ">
-      <div class="text-center font-bold text-xl mb-8">MENU</div>
-      <div class="flex">
-        <div class="mx-auto">
+    <div class="w-full md:w-1/3 border-r-2 border-lime-600">
+      <div class="text-center font-bold text-xl mb-4">MENU</div>
+      <div class="flex flex-col md:flex-row">
+        <div class="mx-auto mb-4 md:mb-0">
           <ul>
             <li>Home</li>
             <li>Services</li>
@@ -32,7 +32,7 @@
             <li>Portfolio</li>
           </ul>
         </div>
-        <div class="mx-auto ">
+        <div class="mx-auto">
           <ul>
             <li>Why Us</li>
             <li>FAQ</li>
@@ -44,8 +44,8 @@
     </div>
 
     <!-- Social Media Section -->
-    <div class="w-1/3">
-      <div class="text-center font-bold text-xl mb-8">OUR SOCIAL MEDIAS</div>
+    <div class="w-full md:w-1/3">
+      <div class="text-center font-bold text-xl mb-4">OUR SOCIAL MEDIAS</div>
       <div class="flex flex-wrap gap-4">
         <div class="mx-auto">
           <div class="flex flex-wrap gap-4">

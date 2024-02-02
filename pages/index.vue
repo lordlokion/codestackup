@@ -7,5 +7,6 @@
  <Services />
  <team-slider />
  <Banner />
+ <Faq />
  <Foot />
 </template>

@@ -2,16 +2,13 @@
   <div>
     <h1 class="text-center font-bold text-4xl tracking-wider pt-20">
       OUR TEAM
-      
     </h1>
     <p class="text-center">We will write something here.</p>
-    <div
-      class="w-full max-w-6xl container mx-auto flex items-center justify-center p-10"
-    >
+    <div class="w-full max-w-6xl container mx-auto flex items-center justify-center p-4 sm:p-10">
       <div class="flex items-center space-x-4">
         <button
           @click="prevSlide"
-          class="text-gray-500 px-4 py-2 rounded-full bg-white"
+          class="text-gray-500 px-2 py-1 rounded-full bg-white"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -19,7 +16,7 @@
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-6 h-6"
+            class="w-4 h-4 sm:w-6 sm:h-6"
           >
             <path
               stroke-linecap="round"
@@ -33,26 +30,24 @@
           v-for="(image, position) in positions"
           :key="position"
           class="flex-none"
+          :class="{
+            'w-32 h-32 sm:w-64 sm:h-64': position === centerPosition,
+            'w-16 h-16 sm:w-32 sm:h-32': position !== centerPosition,
+          }"
         >
           <img
             :src="images[(currentIndex + position) % images.length].src"
             :alt="images[(currentIndex + position) % images.length].alt"
-            :class="{
-              'w-64 h-64 rounded-full object-contain':
-                position === centerPosition,
-              'w-32 h-32 rounded-full object-contain':
-                position !== centerPosition,
-            }"
+            class="rounded-full object-contain mx-auto w-full h-full"
             :style="{
-              backgroundColor:
-                position === centerPosition ? '#00ce7c' : '#00ce7c',
+              backgroundColor: position === centerPosition ? '#00ce7c' : '#00ce7c',
             }"
           />
         </div>
 
         <button
           @click="nextSlide"
-          class="text-gray-500 px-4 py-2 rounded-full bg-white"
+          class="text-gray-500 px-2 py-1 rounded-full bg-white"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -60,7 +55,7 @@
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-6 h-6"
+            class="w-4 h-4 sm:w-6 sm:h-6"
           >
             <path
               stroke-linecap="round"
