@@ -4,12 +4,13 @@
       OUR TEAM
     </h1>
     <p class="text-center">We will write something here.</p>
-    <div class="w-full max-w-6xl container mx-auto flex items-center justify-center p-4 sm:p-10">
-      <div class="flex items-center space-x-2 sm:space-x-4">
-        <!-- Decreased space between buttons for small screens -->
+    <div
+      class="w-full max-w-6xl container mx-auto flex items-center justify-center p-4 sm:p-10"
+    >
+      <div class="flex items-center space-x-4">
         <button
           @click="prevSlide"
-          class="text-gray-500 px-1 py-1 rounded-full bg-white"
+          class="text-gray-500 px-3 py-3 rounded-full bg-white"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -32,8 +33,8 @@
           :key="position"
           class="flex-none"
           :class="{
-            'w-24 h-24 sm:w-32 sm:h-32': position === centerPosition,
-            'w-12 h-12 sm:w-16 sm:h-16': position !== centerPosition,
+            'w-32 h-32 sm:w-48 sm:h-48': position === centerPosition,
+            'w-16 h-16 sm:w-24 sm:h-24': position !== centerPosition,
           }"
         >
           <img
@@ -41,14 +42,15 @@
             :alt="images[(currentIndex + position) % images.length].alt"
             class="rounded-full object-contain mx-auto w-full h-full"
             :style="{
-              backgroundColor: position === centerPosition ? '#00ce7c' : '#00ce7c',
+              backgroundColor:
+                position === centerPosition ? '#00ce7c' : '#00ce7c',
             }"
           />
         </div>
 
         <button
           @click="nextSlide"
-          class="text-gray-500 px-1 py-1 rounded-full bg-white"
+          class="text-gray-500 px-3 py-3 rounded-full bg-white"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -70,16 +72,15 @@
   </div>
 </template>
 
-
 <script setup>
 import { ref } from "vue";
 
 const images = [
-  { src: "/images/cmp_icon.svg", alt: "Image 1" },
-  { src: "/images/scope_icon.svg", alt: "Image 2" },
-  { src: "/images/search_icon.svg", alt: "Image 1" },
-  { src: "/images/scope_icon.svg", alt: "Image 2" },
-  { src: "/images/search_icon.svg", alt: "Image 1" },
+  { src: "/team/team.jpg", alt: "Image 1" },
+  { src: "/team/team.jpg", alt: "Image 2" },
+  { src: "/team/team.jpg", alt: "Image 3" },
+  { src: "/team/team.jpg", alt: "Image 4" },
+  { src: "/team/team.jpg", alt: "Image 5" },
 ];
 
 const positions = [0, 1, 2, 3, 4]; // Static positions
