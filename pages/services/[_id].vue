@@ -212,7 +212,7 @@
     <div class="w-full md:w-2/3">
       <h2 class="text-2xl md:text-5xl font-bold">{{ service.b3_title }}</h2>
 
-      <img src="/icon/line_icon.png" alt="Icon" class="w-72 md:h-6" />
+      <img src="/icon/line_icon.png" alt="Icon" class="h-4 w-72 md:h-6" />
       <p class="text-gray-600 text-sm md:text-base">
         {{ service.b3_description }}
       </p>
