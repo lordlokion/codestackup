@@ -1,7 +1,7 @@
 <template>
   <Navbar />
-
-  <div style="background: linear-gradient(to bottom, #e8f0d2, #eefadf)">
+<div class="mx-auto">
+  <div class="" style="background: linear-gradient(to bottom, #e8f0d2, #eefadf)">
     <div
       class="flex flex-col md:flex-row max-w-6xl mx-auto items-center p-4 md:p-10 justify-between"
     >
@@ -38,19 +38,18 @@
     </div>
   </div>
 
-  <div class="max-w-7xl mx-auto mt-8 md:mt-20">
+  <div class="max-w-7xl mx-auto mt-8 md:mt-20 p-4">
     <div class="w-full md:w-2/4 mx-auto">
       <h1 class="font-bold text-lg md:text-xl">Overview</h1>
       <p class="text-base md:text-lg mt-2 md:mt-5">
         {{ service.overview }}
       </p>
-      <div class="px-6 md:px-40 py-6 md:py-20">
+      <div class="md:px-40 py-6 md:py-20">
         <NuxtLink to="/talktous">
           <a
             href=""
             title=""
-            class="text-white px-4 md:px-8 py-2 md:py-4 rounded-full text-sm md:text-md"
-            style="background-color: #00ce7c"
+            class="text-black font-semibold px-4 md:px-8 py-2 md:py-4 rounded-xl text-sm md:text-md bg-green-500 hover:bg-green-600"
           >
             Work With Us
           </a>
@@ -63,7 +62,7 @@
   <div
     class="flex flex-col md:flex-row space-y-8 md:space-y-0 mx-auto mt-8 md:mt-20 mb-8 md:mb-20 max-w-6xl border-2 border-green-600 rounded-xl p-4 md:p-10"
   >
-    <div class="w-full md:w-2/3">
+    <div class="w-full md:w-2/3 ">
       <h2 class="text-2xl md:text-5xl font-bold">{{ service.b1_title }}</h2>
 
       <img src="/icon/line_icon.png" alt="Icon" class="h-4 w-72 md:h-6" />
@@ -280,6 +279,7 @@
   </div>
 
   <Foot />
+</div>
 </template>
 
 <script setup>
