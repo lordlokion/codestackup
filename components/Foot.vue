@@ -5,7 +5,7 @@
       class="w-full md:w-1/3 rounded-2xl h-60 mb-10 p-4"
       style="background: linear-gradient(to bottom, #e8f0d2, #ffffff)"
     >
-      <div class="text-center font-bold text-3xl mb-4 md:mb-0">This is the heading</div>
+      <div class="mb-4 md:mb-0"><img src="/icon/logo_black.svg" class="mx-4"></div>
       <div class="flex flex-col md:flex-row">
         <div class="flex w-full md:w-1/3 mt-6 mx-4">
           <img src="/team/team.jpg" class="h-24 w-24 rounded-full" />
@@ -26,7 +26,7 @@
     <div class="mx-auto">
       <ul>
         <NuxtLink to="/"><li>Home</li></NuxtLink>
-        <NuxtLink to="/services"><li>Services</li></NuxtLink>
+        <NuxtLink to="/service"><li>Services</li></NuxtLink>
         <NuxtLink to="/about"><li>About</li></NuxtLink>
         <NuxtLink to="/teams"><li>Team</li></NuxtLink>
         <NuxtLink to="/portfolio"> <li>Portfolio</li></NuxtLink>

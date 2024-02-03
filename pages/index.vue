@@ -1,10 +1,10 @@
 <template>
  <Navbar />
  <Hero-home />
- <Moving-brand />
- <Solutions />
- <Content-card />
- <Services />
+ <Brands />
+ <Cardhome />
+ <Serviceshome />
+ <OurWork />
  <team-slider />
  <Banner />
  <Faq />

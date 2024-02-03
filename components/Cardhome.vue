@@ -5,7 +5,7 @@
         v-for="service in services"
         :key="service.id"
         :to="`/services/${generateRoute(service.title)}`"
-        class="mb-4 w-full sm:w-1/2 lg:w-1/3 px-4"
+        class="mb-4 w-full sm:w-1/3 lg:w-1/3 px-4"
         @click="handleCardClick(service)"
       >
         <Card
