@@ -19,33 +19,33 @@
       </div>
     </div>
 
-    <!-- Menu Section -->
-    <div class="w-full md:w-1/3 border-r-2 border-lime-600">
-      <div class="text-center font-bold text-xl mb-8">MENU</div>
-      <div class="flex flex-col md:flex-row">
-        <div class="mx-auto">
-          <ul>
-            <li>Home</li>
-            <li>Services</li>
-            <li>About</li>
-            <li>Team</li>
-            <li>Portfolio</li>
-          </ul>
-        </div>
-        <div class="mx-auto mt-4 md:mt-0">
-          <ul>
-            <li>Why Us</li>
-            <li>FAQ</li>
-            <li>Hire Us</li>
-            <li>Contribute</li>
-          </ul>
-        </div>
-      </div>
+  <!-- Menu Section -->
+<div class="hidden md:w-1/3 md:flex md:flex-col border-r-2 border-lime-600">
+  <div class="text-center font-bold text-xl mb-8">MENU</div>
+  <div class="flex flex-col md:flex-row">
+    <div class="mx-auto">
+      <ul>
+        <li>Home</li>
+        <li>Services</li>
+        <li>About</li>
+        <li>Team</li>
+        <li>Portfolio</li>
+      </ul>
     </div>
+    <div class="mx-auto mt-4 md:mt-0">
+      <ul>
+        <li>Why Us</li>
+        <li>FAQ</li>
+        <li>Hire Us</li>
+        <li>Contribute</li>
+      </ul>
+    </div>
+  </div>
+</div>
 
     <!-- Social Media Section -->
     <div class="w-full md:w-1/3">
-      <div class="text-center font-bold text-xl mb-8">OUR SOCIAL MEDIAS</div>
+      <div class="text-center font-bold text-xl m-8">OUR SOCIAL MEDIAS</div>
       <div class="flex flex-col md:flex-row gap-4">
         <div class="mx-auto">
           <div class="flex gap-4">
@@ -112,7 +112,7 @@
     </div>
   </div>
 
-  <div class="flex items-center justify-between max-w-6xl mx-auto flex flex-col md:flex-row mb-10">
+  <div class="flex items-center justify-between max-w-6xl mx-auto flex flex-col md:flex-row mb-10 mt-8">
     <p class="text-rhino-400 text-sm mb-4 md:mb-0">
       © Copyright 2023. All Rights reserved by CodeStackUp.
     </p>

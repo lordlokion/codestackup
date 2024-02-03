@@ -30,7 +30,7 @@
         </div>
         <div class="bg-purple-100 rounded-full p-2 md:p-4 text-purple-500 font-bold items-center text-sm flex">
   <div class="mx-2 sm:mx-4 md:mx-6">Connect With Us!</div>
-  <Social class="" />
+  <Social class="h-12 w-full border-2" />
 </div>
 
       </div>
