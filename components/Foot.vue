@@ -8,7 +8,7 @@
       <div class="text-center font-bold text-3xl mb-4 md:mb-0">This is the heading</div>
       <div class="flex flex-col md:flex-row">
         <div class="flex w-full md:w-1/3 mt-6 mx-4">
-          <img src="" class="h-24 w-24 rounded-full" />
+          <img src="/team/team.jpg" class="h-24 w-24 rounded-full" />
         </div>
         <div class="w-full md:w-2/3 mt-6">
           <ul class="text-rhino-400 text-sm">
@@ -25,19 +25,19 @@
   <div class="flex flex-col md:flex-row">
     <div class="mx-auto">
       <ul>
-        <li>Home</li>
-        <li>Services</li>
-        <li>About</li>
-        <li>Team</li>
-        <li>Portfolio</li>
+        <NuxtLink to="/"><li>Home</li></NuxtLink>
+        <NuxtLink to="/services"><li>Services</li></NuxtLink>
+        <NuxtLink to="/about"><li>About</li></NuxtLink>
+        <NuxtLink to="/teams"><li>Team</li></NuxtLink>
+        <NuxtLink to="/portfolio"> <li>Portfolio</li></NuxtLink>
       </ul>
     </div>
     <div class="mx-auto mt-4 md:mt-0">
       <ul>
-        <li>Why Us</li>
-        <li>FAQ</li>
-        <li>Hire Us</li>
-        <li>Contribute</li>
+       <NuxtLink to="/us"><li>Why Us</li></NuxtLink>
+       <NuxtLink to="/faq"><li>FAQ</li></NuxtLink>
+       <NuxtLink to="/hireus"> <li>Hire Us</li></NuxtLink>
+       <NuxtLink to="/contribute"><li>Contribute</li></NuxtLink>
       </ul>
     </div>
   </div>

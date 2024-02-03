@@ -39,7 +39,7 @@
                     </span>
                   </div>
                   <div :class="{ hidden: !question.showAnswer }" class="mt-6">
-                    <p class="mb-5 text-xl">{{ question.answer }}</p>
+                    <p class="mb-5 text-md">{{ question.answer }}</p>
                   </div>
                 </div>
               </button>
@@ -55,32 +55,34 @@
 import { ref } from "vue";
 
 const questions = ref([
-  {
+
+{
     id: 1,
-    title: "This is going to be question 1?",
+    title: "How will you help us improve our SEO?",
     answer:
-      "Here comes the answer to the quesion.",
+      "We prioritise improving your SEO visibility. Our strategy includes a thorough review of your existing SEO position, targeted keyword research, and the adoption of SEO best practices. We focus on optimising on-page features, enhancing site structure, and introducing high-quality content. Our objective is to increase your website's exposure, drive organic traffic, and ensure that it appears prominently in search engine results.",
     showAnswer: false,
   },
   {
     id: 2,
-    title: "This is going to be question 2?",
+    title: "Do you provide content outlines and editing services?",
     answer:
-      "Here comes the answer to the quesion.",
+      "Yes, Compelling content is crucial for a successful website. Our expert content strategists can create a complete content plan that is suited to your company's aims. Furthermore, we provide expert editing services to guarantee that your material is not only interesting, but also consistent with your brand voice, creating a lasting impact on your audience.",
     showAnswer: false,
   },
+  
   {
     id: 3,
-    title: "This is going to be question 3?",
+    title: "How big is your team, and where are they located?",
     answer:
-      "Here is the answer of the third qustioj.",
+      "Our team consists of varied people with distinct abilities. While we value online cooperation, our core staff is centrally based in New Delhi, allowing for effective communication and project management.",
     showAnswer: false,
   },
   {
     id: 4,
-    title: "This is going to be question 4?",
+    title: "What platforms do you use for web design and development?",
     answer:
-      "Here comes the Content of the last question here.",
+      "We use advanced technologies and platforms to provide amazing web design and development solutions. Our expertise spans several platforms, including React, Vue, WordPress, Shopify, and custom-built solutions geared to your exact needs. We believe in staying ahead of industry trends and selecting the proper technologies to support your company objectives, resulting in a visually attractive website that is both technologically strong and user-friendly.",
     showAnswer: false,
   },
 ]);
