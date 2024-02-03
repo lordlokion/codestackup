@@ -2,10 +2,10 @@
   <div class="max-w-6xl mx-auto flex flex-col md:flex-row">
     <!-- Contact Section -->
     <div
-      class="w-full md:w-1/3 rounded-2xl h-60 mb-10 p-4"
+      class="w-full md:w-1/3 rounded-2xl h-60 mb-10 py-4 px-2"
       style="background: linear-gradient(to bottom, #e8f0d2, #ffffff)"
     >
-      <div class="mb-4 md:mb-0"><img src="/icon/logo_black.svg" class="mx-4"></div>
+      <div class="mb-4"><img src="/icon/logo_black.svg" class=""></div>
       <div class="flex flex-col md:flex-row">
         <div class="flex w-full md:w-1/3 mt-6 mx-4">
           <img src="/team/team.jpg" class="h-24 w-24 rounded-full" />
