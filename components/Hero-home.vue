@@ -27,7 +27,7 @@
         <NuxtLink to="/talktous">
           <div class="flex mt-4 sm:mt-0">
             <div
-              class="w-full sm:w-1/2 flex bg-blue-200 text-black px-8 py-4 font-semibold rounded-md text-xl bg-green-400 hover:bg-green-500"
+              class="w-full sm:w-1/2 flex bg-blue-200 text-black px-8 py-4 font-semibold rounded-md text-xl bg-green-400 hover:bg-green-500 text-center justify-center"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

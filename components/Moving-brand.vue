@@ -1,7 +1,7 @@
 <template>
   <div style="background: linear-gradient(to bottom, #eefadf, #fcfefa)">
     <h1
-      class="text-center mx-auto font-bold w-1/2 text-4xl tracking-wider pt-20"
+      class="text-center mx-auto font-bold lg:w-1/2 text-3xl lg:text-4xl tracking-wider pt-20"
     >
       TRUSTED BY THE TOP COMPANIES
     </h1>

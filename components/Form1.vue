@@ -1,28 +1,26 @@
 <template>
-  <div class="w-full p-8 min-h-screen" style="background-color: #00ce7c">
-    <div>
-      <div class="flex">
-        <div class="w-1/3"></div>
-        <div class="w-1/3 mx-10 mb-4 w-48">
-          <img src="" />
-        </div>
-        <div class="w-1/3"></div>
+  <div class="w-full p-4 md:p-8 min-h-screen" style="background-color: #00ce7c">
+    <div class="md:flex">
+      <div class="w-full md:w-1/3"></div>
+      <div class="w-full md:w-1/3 mx-4 md:mx-10 mb-4 md:w-48">
+        <img src="" />
       </div>
+      <div class="w-full md:w-1/3"></div>
     </div>
 
-    <div class="flex">
-      <div class="w-1/3"></div>
-      <div class="w-1/3 mx-32">
-        <h1 class="max-w-6xl text-white text-6xl mb-8">Get a proposal</h1>
-        <p class="max-w-6xl text-gray-100 text-md mb-8">
+    <div class="md:flex">
+      <div class="w-full md:w-1/3"></div>
+      <div class="w-full md:w-1/3 md:mx-4">
+        <h1 class="max-w-2xl text-white text-4xl md:text-6xl mb-4 md:mb-8">Get a proposal</h1>
+        <p class="max-w-2xl text-gray-100 text-md mb-4 md:mb-8">
           We’ll be in touch to book a discovery call shortly after you submit
           the form below 😃
         </p>
       </div>
-      <div class="w-1/3"></div>
+      <div class="w-full md:w-1/3"></div>
     </div>
 
-    <div class="p-6 md:max-w-lg mx-auto bg-white">
+    <div class="p-4 md:p-6 md:max-w-lg mx-auto bg-white">
       <form
         @submit.prevent="submitForm"
         class="flex flex-wrap -m-2"
@@ -74,58 +72,55 @@
             />
           </label>
         </div>
-
         <div class="w-full p-2">
           <label class="block">
             <span class="inline-block mb-2 font-medium tracking-tight"
               >Company Name</span
             >
             <input
-              v-model="name"
+              v-model="companyName"
               type="text"
-              id="name"
-              name="name"
+              id="companyName"
+              name="companyName"
               class="p-4 w-full text-gray-500 tracking-tight placeholder-gray-300 outline-none border border-gray-300 focus:border-gray-700 rounded-lg transition duration-200"
               placeholder="Google"
             />
           </label>
         </div>
-
         <div class="w-full p-2">
           <label class="block">
             <span class="inline-block mb-2 font-medium tracking-tight"
               >Website URL (if applicable)</span
             >
             <input
-              v-model="name"
+              v-model="websiteURL"
               type="text"
-              id="name"
-              name="name"
+              id="websiteURL"
+              name="websiteURL"
               class="p-4 w-full text-gray-500 tracking-tight placeholder-gray-300 outline-none border border-gray-300 focus:border-gray-700 rounded-lg transition duration-200"
               placeholder="https://company.com"
             />
           </label>
         </div>
-
         <div class="w-full p-2">
           <label class="block">
             <span class="inline-block mb-2 font-medium tracking-tight"
               >Project Summary</span
             >
             <textarea
-              v-model="message"
-              id="message"
-              name="message"
+              v-model="projectSummary"
+              id="projectSummary"
+              name="projectSummary"
               rows="7"
               class="block p-4 w-full text-gray-500 placeholder-gray-300 outline-none border border-gray-300 focus:border-gray-700 rounded-lg resize-none transition duration-200"
               placeholder="i.e page count, functionalities, timeline, design preferences etc.."
             ></textarea>
           </label>
         </div>
-        <div class="w-full p-2 text-center justify-between">
+        <div class="w-full p-2 text-center">
           <button
             type="submit"
-            class="px-40 py-2 bg-green-500 text-black font-semibold rounded-md flex"
+            class="w-full md:w-auto px-4 py-2 bg-green-500 text-black font-semibold rounded-md flex items-center justify-center"
           >
             Submit Request
             <svg
@@ -134,7 +129,7 @@
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              class="w-6 h-6"
+              class="w-6 h-6 ml-2"
             >
               <path
                 stroke-linecap="round"
@@ -155,14 +150,18 @@ import { ref } from "vue";
 const name = ref("");
 const email = ref("");
 const phone = ref("");
-const message = ref("");
+const companyName = ref("");
+const websiteURL = ref("");
+const projectSummary = ref("");
 
 const submitForm = () => {
   const formData = {
     from_name: name.value,
     email_id: email.value,
     phone: phone.value,
-    message: message.value,
+    company_name: companyName.value,
+    website_url: websiteURL.value,
+    message: projectSummary.value,
   };
 
   // Store form data in local storage

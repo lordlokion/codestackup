@@ -1,5 +1,5 @@
 <template>
-  <header class="py-4 bg-#FF5733" style="background-color: #e8f0d2">
+  <header class="py-4" style="background-color: #e8f0d2">
     <div class="max-w-6xl container mx-auto flex flex-col md:flex-row items-center justify-between">
       <div class="mb-4 md:mb-0">
         <a href="">

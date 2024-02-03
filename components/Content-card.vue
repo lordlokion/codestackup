@@ -1,6 +1,6 @@
 <template>
   <div style="background: linear-gradient(to bottom, #ffffff, #ffffff)">
-    <h1 class="text-center font-bold text-4xl tracking-wider pt-20">
+    <h1 class="text-center font-bold text-3xl lg:text-4xl tracking-wider pt-20">
       OUR SERVICES
       <img
         src="/icon/line_icon.png"
@@ -17,9 +17,9 @@
           <template v-if="index % 2 === 1">
             <!-- For even index, switch places -->
             <div class="w-2/3">
-              <h2 class="text-3xl font-bold">{{ service.title }}</h2>
-              <img :src="lightIconUrl" class="h-6" />
-              <p class="text-gray-600">{{ service.description }}</p>
+              <h2 class=" text-3xl font-bold">{{ service.title }}</h2>
+              <img :src="lightIconUrl" class="lg:h-6 h-2" />
+              <p class="text-gray-600 ">{{ service.description }}</p>
               <button class="bg-black text-white px-4 py-2 mt-6 rounded-full flex">
                 Learn More
                 <svg
