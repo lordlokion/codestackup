@@ -98,8 +98,8 @@ const services = [
       "Connect and empower your applications with our API Development services. We ensure a smooth and efficient integration process,  bridging the digital divide",
   },
   {
-    lightIconUrl: "",
-    title: "Web & Mobile Apps",
+    lightIconUrl: "/images/API_COLOR.svg",
+    title: "LAST ONE",
     description:
       "We deliver responsive web apps, sites, and a seamless mobile experience for iOS and Android.",
   },

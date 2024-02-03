@@ -219,8 +219,8 @@ const services = [
     b3_img: "",
   },
   {
-    IconUrl: "/images/cmp_icon.svg",
-    title: "Web & Mobile Apps",
+    IconUrl: "/images/API_COLOR.svg",
+    title: "LAST ONE",
     description:
       "We deliver responsive web apps, sites, and a seamless mobile experience for iOS and Android.",
     overview:
