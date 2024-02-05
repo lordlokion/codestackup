@@ -120,7 +120,7 @@
         <div class="w-full p-2 text-center">
           <button
             type="submit"
-            class="w-full md:w-auto px-4 py-2 bg-green-500 text-black font-semibold rounded-md flex items-center justify-center"
+            class="w-full md:w-auto px-4 py-2 bg-green-300 hover:bg-green-500 hover:text-white hover:font-semibold text-black rounded-md flex items-center justify-center"
           >
             Submit Request
             <svg
