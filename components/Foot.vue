@@ -37,7 +37,7 @@
        <NuxtLink to="/us"><li>Why Us</li></NuxtLink>
        <NuxtLink to="/faq"><li>FAQ</li></NuxtLink>
        <NuxtLink to="/hireus"> <li>Hire Us</li></NuxtLink>
-       <NuxtLink to="/contribute"><li>Contribute</li></NuxtLink>
+       <NuxtLink to="/ourprocess"><li>Our Process</li></NuxtLink>
       </ul>
     </div>
   </div>

@@ -76,11 +76,11 @@
 import { ref } from "vue";
 
 const images = [
-  { src: "/team/team.jpg", alt: "Image 1" },
-  { src: "/team/team.jpg", alt: "Image 2" },
-  { src: "/team/team.jpg", alt: "Image 3" },
-  { src: "/team/team.jpg", alt: "Image 4" },
-  { src: "/team/team.jpg", alt: "Image 5" },
+  { src: "https://shuffle.dev/solstice-assets/images/about/woman-picture2.png", alt: "Image 1" },
+  { src: "https://shuffle.dev/solstice-assets/images/about/woman-picture1.png", alt: "Image 2" },
+  { src: "https://shuffle.dev/solstice-assets/images/about/men-picture.png", alt: "Image 3" },
+  { src: "https://shuffle.dev/solstice-assets/images/about/woman-picture2.png", alt: "Image 4" },
+  { src: "https://shuffle.dev/solstice-assets/images/about/woman-picture1.png", alt: "Image 5" },
 ];
 
 const positions = [0, 1, 2, 3, 4]; // Static positions

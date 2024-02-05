@@ -44,17 +44,21 @@
       <p class="text-base md:text-lg mt-2 md:mt-5">
         {{ service.overview }}
       </p>
-      <div class="md:px-40 py-6 md:py-20">
+      
+      
+      <div class="md:px-40 py-6 md:py-20 text-center justify-between">
         <NuxtLink to="/talktous">
           <a
             href=""
             title=""
-            class="text-black font-semibold px-4 md:px-8 py-2 md:py-4 rounded-xl text-sm md:text-md bg-green-500 hover:bg-green-600"
+            class="text-black font-semibold px-4 md:px-8 py-2 md:py-4 rounded-xl text-xl md:text-md bg-purple-300 hover:bg-purple-400"
           >
             Work With Us
           </a>
         </NuxtLink>
       </div>
+
+      
     </div>
   </div>
 
