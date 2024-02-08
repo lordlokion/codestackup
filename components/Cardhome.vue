@@ -1,6 +1,13 @@
 <template>
   <div style="background: linear-gradient(to bottom, #fcfefa, #ffffff)">
-    <div class="flex flex-col max-w-6xl container mx-auto items-center pt-10 justify-between sm:flex-row">
+    <h1
+      class="text-center uppercase mx-auto font-bold lg:w-1/2 text-3xl lg:text-4xl tracking-wider pt-20"
+    >
+      Everything your site need for success
+    </h1>
+    <div
+      class="flex flex-col max-w-6xl container mx-auto items-center justify-between sm:flex-row"
+    >
       <div
         v-for="service in services"
         :key="service.id"
@@ -29,38 +36,41 @@ export default {
         {
           id: 1,
           title: "STRATEGY",
-          description: "We delve deeply into your objectives, data, and requirements to develop a successful digital strategy.",
+          description:
+            "We delve deeply into your objectives, data, and requirements to develop a successful digital strategy.",
           imageSrc: "/images/Strategy_icon.svg",
           link: "#",
-          buttonText: "Read the docs &rarr;"
+          buttonText: "Read the docs &rarr;",
         },
         {
           id: 2,
           title: "DESIGN",
-          description: "Our design approach is both rigorous and imaginative, with the purpose of helping you achieve your objectives.",
+          description:
+            "Our design approach is both rigorous and imaginative, with the purpose of helping you achieve your objectives.",
           imageSrc: "/images/design1.svg",
           link: "#",
-          buttonText: "Read the docs &rarr;"
+          buttonText: "Read the docs &rarr;",
         },
         {
           id: 3,
           title: "IMPLEMENTATION",
-          description: "We are enthusiastic about our job and utilise technology to help you reach your objectives.",
+          description:
+            "We are enthusiastic about our job and utilize cutting-edge technology to efficiently help you reach your objectives.",
           imageSrc: "/images/implementation.svg",
           link: "#",
-          buttonText: "Read the docs &rarr;"
-        }
-      ]
+          buttonText: "Read the docs &rarr;",
+        },
+      ],
     };
   },
   methods: {
     generateRoute(title) {
-      return title.replace(/\s+/g, '-').toLowerCase();
+      return title.replace(/\s+/g, "-").toLowerCase();
     },
     handleCardClick(service) {
       console.log(`Clicked on card with title: ${service.title}`);
-      console.log('Generated route:', this.generateRoute(service.title));
-    }
-  }
+      console.log("Generated route:", this.generateRoute(service.title));
+    },
+  },
 };
 </script>

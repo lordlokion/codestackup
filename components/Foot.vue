@@ -12,8 +12,9 @@
         </div>
         <div class="w-full md:w-2/3 mt-6">
           <ul class="text-rhino-400 text-sm">
-            <li class="mb-3">Call us at: 1-888-699-8900</li>
-            <li>Email: hello@codestackup.com</li>
+            <li>Contact: hello@codestackup.com</li>
+            <li>Support: help@codestackup.com</li>
+
           </ul>
         </div>
       </div>
@@ -28,16 +29,13 @@
         <NuxtLink to="/"><li>Home</li></NuxtLink>
         <NuxtLink to="/service"><li>Services</li></NuxtLink>
         <NuxtLink to="/about"><li>About</li></NuxtLink>
-        <NuxtLink to="/teams"><li>Team</li></NuxtLink>
-        <NuxtLink to="/portfolio"> <li>Portfolio</li></NuxtLink>
       </ul>
     </div>
     <div class="mx-auto mt-4 md:mt-0">
       <ul>
-       <NuxtLink to="/us"><li>Why Us</li></NuxtLink>
-       <NuxtLink to="/faq"><li>FAQ</li></NuxtLink>
-       <NuxtLink to="/hireus"> <li>Hire Us</li></NuxtLink>
        <NuxtLink to="/ourprocess"><li>Our Process</li></NuxtLink>
+       <NuxtLink to="/portfolio"> <li>Portfolio</li></NuxtLink>
+
       </ul>
     </div>
   </div>

@@ -8,7 +8,7 @@
       />
     </h1>
   </div>
-  <p class="text-center px-4 md:px-0">We will write something here.</p>
+  <p class="text-center px-4 text-4xl mb-10">Unveil the depths of our creative endeavors.</p>
 
   <div class="flex flex-wrap justify-center max-w-6xl mx-auto p-4 md:p-6">
     

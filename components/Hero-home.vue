@@ -1,13 +1,16 @@
 <template>
   <div style="background: linear-gradient(to bottom, #e8f0d2, #eefadf)">
     <div
-      class="flex flex-col sm:flex-row max-w-6xl container mx-auto items-center pt-10 justify-between"
+      class="flex flex-col sm:flex-row max-w-6xl container mx-auto items-center lg:pt-20 justify-between"
     >
       <!-- Left side content -->
-      <div class="sm:w-full p-8 h-full"> <!-- Updated class here -->
+      <div class="sm:w-full p-8 h-full">
+        <!-- Updated class here -->
         <span class="bg-black rounded-full text-white px-4 py-2 mx-1">WEB</span>
         <span class="bg-black rounded-full text-white px-4 py-2 mx-1">IOS</span>
-        <span class="bg-black rounded-full text-white px-4 py-2 mx-1">ANDROID</span>
+        <span class="bg-black rounded-full text-white px-4 py-2 mx-1"
+          >ANDROID</span
+        >
 
         <div class="text-container mb-10">
           <div class="uppercase">
@@ -17,11 +20,12 @@
               N<span style="color: #00ce7c">o</span>t Company
             </h1>
           </div>
-          <p>
-            We will write something here, the text will be written here loreal
-            pixel. We will write something here, the text will be written here
-            loreal pixel. We will write something here, the text will be written
-            here loreal pixel.
+          <p class="max-w-2xl">
+            At CodeStackUp, we're all about building your digital dreams into
+            reality. Whether you're a startup looking to establish your online
+            presence or a seasoned business aiming to elevate your digital
+            strategy, we've got the tools, expertise, and passion to make it
+            happen.
           </p>
         </div>
         <NuxtLink to="/talktous">
@@ -50,7 +54,9 @@
       </div>
 
       <!-- Right side image -->
-      <div class="sm:col-md-6 order-1 order-md-3 w-full sm:w-1/2 h-full relative">
+      <div
+        class="sm:col-md-6 order-1 order-md-3 w-full sm:w-1/2 h-full relative"
+      >
         <div class="image-container h-full overflow-hidden">
           <div class="text-center">
             <Anim loc="/anim/home.json" />
