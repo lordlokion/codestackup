@@ -15,7 +15,7 @@
       </div>
 
       <!-- Left side content -->
-      <div class="w-full md:w-1/2 p-4 md:p-8">
+      <div class="w-full lg:w-1/2 p-4 md:p-8">
         <div class="text-container mb-4 md:mb-10">
           <div class="uppercase">
             <h1
@@ -29,9 +29,9 @@
           </p>
         </div>
         <div
-          class="bg-purple-100 rounded-full p-2 md:p-4 text-purple-500 font-bold items-center text-sm flex"
+          class="bg-purple-100 rounded-full lg:p-4 text-purple-500 font-bold items-center text-sm flex"
         >
-          <div class="mx-2 sm:mx-4 md:mx-6">Connect With Us!</div>
+          <div class="mx-2">Connect With Us!</div>
           <Social class="h-12 w-full" />
         </div>
       </div>
@@ -46,7 +46,7 @@
       </p>
       
       
-      <div class="md:px-40 py-6 md:py-20 text-center justify-between">
+      <div class="py-6 md:py-20 text-center justify-between">
         <NuxtLink to="/talktous">
           <a
             href=""

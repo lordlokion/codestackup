@@ -218,7 +218,7 @@ const services = [
     title: "UX & UI Design",
     description:
       " Our UX/UI design package ensures a seamless user experience, enhancing engagement and leaving a lasting impression.",
-    t1: "User-friendly Interfaces",
+    t1: "User-friendly ",
     t2: "Wireframing ",
     t3: "Prototyping",
   },
@@ -228,8 +228,8 @@ const services = [
     title: "Web App Development",
     description:
       "Transform your concepts into dynamic and functional web applications that stand out in the crowded digital landscape.",
-    t1: "Responsive Website Design",
-    t2: "E-commerce Solutions",
+    t1: "Responsive Designs",
+    t2: "E-commerce",
     t3: "CMS Development",
   },
   {
@@ -249,7 +249,7 @@ const services = [
       "Connect and empower your applications with our API Development services. We ensure a smooth and efficient integration process,  bridging the digital divide",
     t1: "RESTful API",
     t2: "API Integration",
-    t3: "API Security Solutions",
+    t3: "API Security ",
   },
 ];
 </script>
