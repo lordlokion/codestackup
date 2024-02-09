@@ -1,6 +1,8 @@
 <template>
   <header class="py-4" style="background-color: #e8f0d2">
-    <div class="max-w-6xl container mx-auto flex flex-col md:flex-row items-center justify-between">
+    <div
+      class="max-w-6xl container mx-auto flex flex-col md:flex-row items-center justify-between"
+    >
       <div class="mb-4 md:mb-0">
         <a href="">
           <NuxtLink to="/">
@@ -14,7 +16,9 @@
           </NuxtLink>
         </a>
       </div>
-      <ul class="hidden md:flex flex-col md:flex-row items-center space-x-0 md:space-x-4">
+      <ul
+        class="hidden md:flex flex-col md:flex-row items-center space-x-0 md:space-x-4"
+      >
         <li class="mb-2 md:mb-0">
           <NuxtLink to="/"><li>Home</li></NuxtLink>
         </li>
@@ -22,11 +26,12 @@
           <NuxtLink to="/service"><li>Services</li></NuxtLink>
         </li>
         <li class="mb-2 md:mb-0">
-          <NuxtLink to="/about"><li>About Us</li></NuxtLink>
-        </li>
-        <li class="mb-2 md:mb-0">
           <NuxtLink to="/ourprocess"><li>Our Process</li></NuxtLink>
         </li>
+        <li class="mb-2 md:mb-0">
+          <NuxtLink to="/about"><li>About Us</li></NuxtLink>
+        </li>
+
         <li>
           <a href="#">
             <NuxtLink

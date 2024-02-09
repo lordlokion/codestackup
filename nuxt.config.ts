@@ -24,18 +24,18 @@ export default defineNuxtConfig({
       viewport: 'width=device-width, initial-scale=1',
       title: 'Code StackUp',
       meta: [
-        { hid: 'description', name: 'description', content: '' },
-        { hid: 'og:title', property: 'og:title', content: '' },
-        { hid: 'og:description', property: 'og:description', content: '' },
-        { hid: 'og:site_name', property: 'og:site_name', content: '' },
+        { hid: 'description', name: 'description', content: 'At CodeStackUp, we are all about building your digital dreams into reality. Whether you are a startup looking to establish your online presence or a seasoned business aiming to elevate your digital strategy, we have got the tools, expertise, and passion to make it happen.' },
+        { hid: 'og:title', property: 'og:title', content: 'Code StackUp' },
+        { hid: 'og:description', property: 'og:description', content: 'At CodeStackUp, we are all about building your digital dreams into reality. Whether you are a startup looking to establish your online presence or a seasoned business aiming to elevate your digital strategy, weve got the tools, expertise, and passion to make it happen.' },
+        { hid: 'og:site_name', property: 'og:site_name', content: 'Code StackUp' },
         { hid: 'og:type', property: 'og:type', content: 'website' },
-        { hid: 'og:image', property: 'og:image', content: '' },
+        { hid: 'og:image', property: 'og:image', content: '/icon/meta_logo.png'},
         { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
-        { hid: 'twitter:image', name: 'twitter:image', content: '' },
+        { hid: 'twitter:image', name: 'twitter:image', content: '/icon/meta_logo.png' },
       ],
 
       link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.icon' },
       ],
       
     }

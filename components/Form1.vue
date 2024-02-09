@@ -10,7 +10,7 @@
 
     <div class="md:flex">
       <div class="w-full md:w-1/3"></div>
-      <div class="w-full md:w-1/3 md:mx-4">
+      <div class="w-full lg:w-1/3">
         <h1 class="max-w-2xl text-white text-4xl md:text-6xl mb-4 md:mb-8">Get a proposal</h1>
         <p class="max-w-2xl text-gray-100 text-md mb-4 md:mb-8">
           We’ll be in touch to book a discovery call shortly after you submit

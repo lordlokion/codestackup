@@ -4,10 +4,10 @@
       Empowering Growth with Seamless Technical Solutions
     </h1>
     <!-- Testimonial Section -->
-    <div class="container mx-auto max-w-6xl flex flex-wrap justify-center items-center mt-10 space-y-8 lg:space-y-0 lg:space-x-8">
+    <div class="container md:px-4 mx-auto max-w-6xl flex flex-wrap justify-center items-center mt-10 space-y-8 lg:space-y-0 lg:space-x-8">
       <!-- Testimonial 1 -->
-      <div class="max-w-xs w-full lg:w-auto rounded overflow-hidden review-column">
-        <img src="https://assets-global.website-files.com/637116ed63d653540d84bcc3/637116ee63d6537b4c84bd40_Star%20cluster.svg" loading="lazy" alt="Stars" class="mb-4">
+      <div class="max-w-xs md:w-1/3 w-full lg:w-auto rounded overflow-hidden review-column">
+        <img src="https://assets-global.website-files.com/637116ed63d653540d84bcc3/637116ee63d6537b4c84bd40_Star%20cluster.svg" loading="lazy" alt="Stars" class="mb-4 lg:mx-0 mx-auto">
         <div class="">
           <p class="text-gray-700 text-base text-start font-semibold">"Their unparalleled commitment and swift delivery made all the difference."</p>
         </div>
@@ -23,8 +23,8 @@
       </div>
 
        <!-- Testimonial 2 -->
-       <div class="max-w-xs w-full lg:w-auto rounded overflow-hidden review-column">
-        <img src="https://assets-global.website-files.com/637116ed63d653540d84bcc3/637116ee63d6537b4c84bd40_Star%20cluster.svg" loading="lazy" alt="Stars" class=" mb-4">
+       <div class="max-w-xs md:w-1/3 w-full lg:w-auto rounded overflow-hidden review-column">
+        <img src="https://assets-global.website-files.com/637116ed63d653540d84bcc3/637116ee63d6537b4c84bd40_Star%20cluster.svg" loading="lazy" alt="Stars" class=" mb-4 lg:mx-0 mx-auto">
         <div class="">
           <p class="text-gray-700 text-base text-center lg:text-start font-semibold">"Their expertise exceeded our expectations, delivering exceptional results."</p>
         </div>
@@ -40,8 +40,8 @@
       </div>
 
        <!-- Testimonial 3 -->
-       <div class="max-w-xs w-full lg:w-auto rounded overflow-hidden review-column">
-        <img src="https://assets-global.website-files.com/637116ed63d653540d84bcc3/637116ee63d6537b4c84bd40_Star%20cluster.svg" loading="lazy" alt="Stars" class="mb-4">
+       <div class="max-w-xs md:w-1/3 w-full lg:w-auto rounded overflow-hidden review-column">
+        <img src="https://assets-global.website-files.com/637116ed63d653540d84bcc3/637116ee63d6537b4c84bd40_Star%20cluster.svg" loading="lazy" alt="Stars" class="mb-4 lg:mx-0 mx-auto">
         <div class="">
           <p class="text-gray-700 text-base text-center lg:text-start font-semibold">"Their passion, competence, and attention to detail went above all expectations."</p>
         </div>

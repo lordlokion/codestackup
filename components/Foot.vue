@@ -8,9 +8,9 @@
       <div class="mb-4"><img src="/icon/logo_black.svg" class=""></div>
       <div class="flex flex-col md:flex-row">
         <div class="flex w-full md:w-1/3 mt-6 mx-4">
-          <img src="/images/email.png" class="h-24 w-24 object-cover rounded-xl" />
+          <img src="/images/email.png" class="h-24 w-24 object-cover" />
         </div>
-        <div class="w-full md:w-2/3 pt-10">
+        <div class="w-full md:w-1/2 pt-8">
           <ul class="text-rhino-400 text-sm">
             <li>Contact: hello@codestackup.com</li>
             <li>Support: help@codestackup.com</li>
