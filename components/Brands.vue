@@ -30,7 +30,7 @@
         </div>
         <div class="py-4 flex flex-col items-center lg:items-start space-y-2 lg:flex-row lg:space-y-0 lg:space-x-2">
           <div>
-            <img src="" loading="lazy" width="50" sizes="50px" alt="img" class="testimonial-headshot rounded-full mx-auto lg:mx-0">
+            <img src="/testimonial/broke_indian.jpg" loading="lazy" width="50" sizes="50px" alt="img" class="testimonial-headshot rounded-full mx-auto lg:mx-0">
           </div>
           <div>
             <p class="text-gray-600 text-base font-semibold text-center lg:text-left">Sourav Singh</p>
@@ -47,7 +47,7 @@
         </div>
         <div class="py-4 flex flex-col items-center lg:items-start space-y-2 lg:flex-row lg:space-y-0 lg:space-x-2">
           <div>
-            <img src="" loading="lazy" width="50" sizes="50px" alt="img" class="testimonial-headshot rounded-full mx-auto lg:mx-0">
+            <img src="/testimonial/reddy.jpg" loading="lazy" width="50" sizes="50px" alt="img" class="testimonial-headshot rounded-full mx-auto lg:mx-0">
           </div>
           <div>
             <p class="text-gray-600 text-base font-semibold text-center lg:text-left">Devashesh Reddy</p>

@@ -172,9 +172,9 @@ const submitForm = () => {
   // Replace 'user_id', 'service_id', and 'template_id' with your actual values.
 
   const emailjsParams = {
-    service_id: "",
-    template_id: "template_gf4comp",
-    user_id: "",
+    service_id: "service_oe0evpq",
+    template_id: "template_tuyswwo",
+    user_id: "sJgDnTWHs2InO8w_5",
     template_params: formData,
   };
 
