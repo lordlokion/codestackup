@@ -9,9 +9,9 @@
       <div class="max-w-xs w-full lg:w-auto rounded overflow-hidden review-column">
         <img src="https://assets-global.website-files.com/637116ed63d653540d84bcc3/637116ee63d6537b4c84bd40_Star%20cluster.svg" loading="lazy" alt="Stars" class="mb-4">
         <div class="">
-          <p class="text-gray-700 text-base text-center lg:text-start font-semibold">"Their unparalleled commitment and swift delivery made all the difference."</p>
+          <p class="text-gray-700 text-base text-start font-semibold">"Their unparalleled commitment and swift delivery made all the difference."</p>
         </div>
-        <div class="py-4 flex flex-col items-center lg:items-start space-y-2 lg:flex-row lg:space-y-0 lg:space-x-2">
+        <div class="py-4 flex flex-col items-center items-start space-y-2 lg:flex-row lg:space-y-0 lg:space-x-2">
           <div>
             <img src="/testimonial/anil_sharma.jpeg" loading="lazy" width="50" sizes="50px" alt="img" class="testimonial-headshot rounded-full mx-auto lg:mx-0 object-cover">
           </div>

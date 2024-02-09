@@ -14,7 +14,7 @@
           </NuxtLink>
         </a>
       </div>
-      <ul class="flex flex-col md:flex-row items-center space-x-0 md:space-x-4">
+      <ul class="hidden md:flex flex-col md:flex-row items-center space-x-0 md:space-x-4">
         <li class="mb-2 md:mb-0">
           <NuxtLink to="/"><li>Home</li></NuxtLink>
         </li>
