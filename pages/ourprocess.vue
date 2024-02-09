@@ -2,7 +2,7 @@
   <Navbar />
 
   <section class="mb-20">
-    <div style="background: linear-gradient(to bottom, #e8f0d2, #eefadf)">
+    <div style="background: linear-gradient(to bottom, #e8f0d2, #ffffff)">
       <div
         class="flex flex-col sm:flex-row max-w-6xl container mx-auto items-center pt-10 justify-between"
       >

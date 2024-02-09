@@ -87,7 +87,7 @@
     </div>
   </div>
   <button
-    class="bg-black text-white px-4 py-2 mt-6 rounded-full flex"
+    class="hidden md:bg-black md:text-white md:px-4 md:py-2 lg:mt-6 md:rounded-full md:flex"
   >
     Learn More
     <svg
@@ -185,7 +185,7 @@
     </div>
   </div>
   <button
-    class="bg-black text-white px-4 py-2 mt-6 rounded-full flex"
+  class="hidden md:bg-black md:text-white md:px-4 md:py-2 lg:mt-6 md:rounded-full md:flex"
   >
     Learn More
     <svg

@@ -16,16 +16,16 @@
       </div>
       <ul class="flex flex-col md:flex-row items-center space-x-0 md:space-x-4">
         <li class="mb-2 md:mb-0">
-          <span class="hidden sm:inline">Home</span>
+          <NuxtLink to="/"><li>Home</li></NuxtLink>
         </li>
         <li class="mb-2 md:mb-0">
-            <span class="hidden sm:inline">Services</span>
+          <NuxtLink to="/service"><li>Services</li></NuxtLink>
         </li>
         <li class="mb-2 md:mb-0">
-            <span class="hidden sm:inline">About Us</span>
+          <NuxtLink to="/about"><li>About Us</li></NuxtLink>
         </li>
         <li class="mb-2 md:mb-0">
-            <span class="hidden sm:inline">Our Process</span>
+          <NuxtLink to="/ourprocess"><li>Our Process</li></NuxtLink>
         </li>
         <li>
           <a href="#">

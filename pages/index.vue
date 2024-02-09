@@ -5,7 +5,6 @@
  <Cardhome />
  <Serviceshome />
  <OurWork />
- <team-slider />
  <Banner />
  <Faq />
  <Foot />
