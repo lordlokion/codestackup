@@ -29,7 +29,7 @@
           </p>
         </div>
         <div
-          class="bg-purple-100 rounded-full lg:p-4 text-purple-500 font-bold items-center text-sm flex"
+          class="bg-purple-100 rounded-full md:p-4 text-purple-500 font-bold items-center text-sm flex"
         >
           <div class="mx-2">Connect With Us!</div>
           <Social class="h-12 w-full" />
