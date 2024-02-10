@@ -28,7 +28,7 @@
           <!-- Twitter Icon -->
           <a
             class="border-rhino-200 flex h-12 w-12 items-center justify-center bg-purple-200 rounded-full border text-gray-600 transition duration-200 hover:border-transparent hover:bg-purple-600 hover:text-white"
-            href="#"
+            href="https://twitter.com/codestackup"
           >
             <!-- SVG Code for Twitter Icon -->
             <svg
@@ -50,7 +50,7 @@
           <!-- LinkedIn Icon -->
           <a
             class="border-rhino-200 flex h-12 w-12 items-center justify-center bg-purple-200 rounded-full border text-gray-600 transition duration-200 hover:border-transparent hover:bg-purple-600 hover:text-white"
-            href="#"
+            href="https://www.linkedin.com/company/codestackup/?viewAsMember=true"
           >
             <!-- SVG Code for LinkedIn Icon -->
             <svg
