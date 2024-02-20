@@ -38,7 +38,7 @@ export default {
           title: "STRATEGY",
           description:
             "We delve deeply into your objectives, data, and requirements to develop a successful digital strategy.",
-          imageSrc: "/images/Strategy_icon.svg",
+          imageSrc: "/images/Strategy_icon.sv",
           link: "#",
           buttonText: "Read the docs &rarr;",
         },
