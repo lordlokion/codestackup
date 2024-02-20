@@ -127,11 +127,9 @@
     </div>
 
     <div class="w-full md:w-1/3 h-40 md:h-60 rounded-lg overflow-hidden">
-      <img
-        :src="service.b1_img"
-        alt="Card Image"
-        class="w-full h-full object-fill rounded-lg"
-      />
+
+      <Anim loc="/anim/1.json" class="-my-12" />
+      
     </div>
   </div>
 
@@ -140,13 +138,9 @@
     class="flex flex-col md:flex-row space-y-8 md:space-y-0 mx-auto mb-8 md:mb-20 max-w-6xl border-2 border-purple-600 rounded-xl p-4 md:p-10"
   >
     <div
-      class="w-full md:w-1/3 h-40 md:h-60 bg-green-200 rounded-lg overflow-hidden"
+      class="w-full md:w-1/3 h-40  md:h-64 rounded-lg overflow-hidden "
     >
-      <img
-        :src="service.b2_img"
-        alt="Card Image"
-        class="w-full h-full object-fill rounded-lg"
-      />
+    <Anim loc="/anim/2.json" class="-my-12 " />
     </div>
     <div class="w-full md:w-2/3 mx-8">
       <h2 class="text-2xl md:text-5xl font-bold">{{ service.b2_title }}</h2>
@@ -273,10 +267,13 @@
       </div>
     </div>
 
-    <div class="w-full md:w-1/3 h-40 md:h-60 rounded-lg overflow-hidden">
+    <div class="w-full md:w-1/3 h-40 md:h-64 rounded-lg overflow-hidden">
+
+      <Anim loc="/anim/5.json" class="-my-12" />
+
       <img
-        :src="service.b3_img"
-        alt="Card Image"
+        src=""
+        alt=""
         class="w-full h-full object-fill rounded-lg"
       />
     </div>
@@ -320,15 +317,16 @@ const services = [
     b1_svg1: "Innovative Interaction Patterns",
     b1_svg2: "Accessibility Integration",
     b1_svg3: "Agile Prototyping",
+            b1_anim: "/anim/1.json",
     b2_title: "Intuitive Digital Adventures",
     b2_description:"Enter a realm where innovation seamlessly intertwines with aesthetics. Beyond creating visually appealing designs, we strive to craft immersive digital experiences that captivate visitors and effortlessly guide them toward desired actions. The essence of your brand is intricately woven into our designs, fostering a cohesive user experience that gracefully adapts to evolving demands.",
-        b2_img: "/images/API_COLOR.svg",
+           b2_anim: "/anim/1.json", 
     b2_svg1: "Brand Storytelling",
     b2_svg2: "Dynamic Design Evolution",
     b2_svg3: "User-Centric Branding",
     b3_title: "TRevolutionizing Your Online Landscape",
     b3_description:"Embark on a dynamic digital evolution with us. Our UX & UI design approach is a seamless blend of art and science, reshaping the way users connect with your brand in the online sphere. Rooted in data and informed insights, our user-centric designs go beyond aesthetics, delivering interactive prototypes that empower strategic decision-making.",
-        b3_img: "/images/API_COLOR.svg",
+    b3_anim: "/anim/1.json", 
     b3_svg1: "Data-Driven Innovation",
     b3_svg2: "Strategic Prototyping",
     b3_svg3: "Trendsetting Leadership",
