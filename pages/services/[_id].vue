@@ -309,9 +309,8 @@ const services = [
     IconUrl: "/images/UI.svg",
     title: "UX & UI Design",
     description:
-      "We deliver responsive web apps, sites, and a seamless mobile experience for iOS and Android.",
-    overview:
-      "A pinnacle of transformative UX/UI design seamlessly merged with functional brilliance, redefining digital experiences. With an unwavering commitment to innovation and a skilled team, we elevate designs beyond aesthetics—crafting intuitive, user-centric interfaces that captivate and resonate.",
+      "Explore our offerings of responsive web applications, websites, and an intuitive mobile journey tailored for both iOS and Android platforms.",
+    overview: "Enter the world of innovative UX/UI design, where functionality meets transformative brilliance, reshaping the digital landscape. Guided by a steadfast dedication to innovation and supported by a team of experts, we go beyond traditional aesthetics, creating user-friendly interfaces that captivate and connect with audiences.",
     b1_title: "Intuitive Digital Journeys",
     b1_description:"Embark on a journey where digital interaction transforms into an art form. Our dedication lies in reshaping websites into extraordinary experiences, ensuring each interaction leaves a lasting impression. With an unwavering commitment to user-centric design, we conduct in-depth research and testing to craft interfaces that surpass expectations. From visually captivating designs to intuitive navigation, our approach is geared towards creating seamless digital journeys.",    b1_img: "/images/API_COLOR.svg",
     b1_svg1: "Innovative Interaction Patterns",
@@ -324,7 +323,7 @@ const services = [
     b2_svg1: "Brand Storytelling",
     b2_svg2: "Dynamic Design Evolution",
     b2_svg3: "User-Centric Branding",
-    b3_title: "TRevolutionizing Your Online Landscape",
+    b3_title: "Revolutionizing Your Online Landscape",
     b3_description:"Embark on a dynamic digital evolution with us. Our UX & UI design approach is a seamless blend of art and science, reshaping the way users connect with your brand in the online sphere. Rooted in data and informed insights, our user-centric designs go beyond aesthetics, delivering interactive prototypes that empower strategic decision-making.",
     b3_anim: "/anim/1.json", 
     b3_svg1: "Data-Driven Innovation",
@@ -337,9 +336,8 @@ const services = [
     IconUrl: "/images/web_color2.svg",
     title: "Web App Development",
     description:
-      "We deliver responsive web apps, sites, and a seamless mobile experience for iOS and Android.",
-    overview:
-      "A pinnacle of transformative UX/UI design seamlessly merged with functional brilliance, redefining digital experiences. With an unwavering commitment to innovation and a skilled team, we elevate designs beyond aesthetics—crafting intuitive, user-centric interfaces that captivate and resonate.",
+      "Our expertise lies in deploying dynamic web applications, websites, and ensuring a seamless mobile experience for both iOS and Android platforms.",
+    overview:"At the peak of innovative design, we seamlessly blend functionality with brilliance, redefining digital interactions. With an unyielding commitment to creativity and a talented team, we go beyond appearances—creating intuitive, user-focused interfaces that captivate and leave a lasting impact.",
     b1_title: "Expert Web App Development",
     b1_description:
       "Discover how our tailored web app development services can revolutionize your business. We leverage cutting-edge technologies to create scalable and user-centric web applications, ensuring your online presence stands out. With a proven track record, agile development, and a client-centric approach, choosing us means staying ahead in the digital game.",
@@ -368,9 +366,8 @@ const services = [
     IconUrl: "/images/sda.svg",
     title: "Software Design & Architecture",
     description:
-      "We deliver responsive web apps, sites, and a seamless mobile experience for iOS and Android.",
-    overview:
-      "A pinnacle of transformative UX/UI design seamlessly merged with functional brilliance, redefining digital experiences. With an unwavering commitment to innovation and a skilled team, we elevate designs beyond aesthetics—crafting intuitive, user-centric interfaces that captivate and resonate.",
+      "We provide interactive web applications, websites, and a smooth mobile interface for both iOS and Android platforms.",
+    overview:"At the forefront of digital evolution, our software design and architecture epitomise innovation and excellence. Seamlessly merging functional brilliance, we redefine digital landscapes. With an unwavering commitment to innovation and a team of skilled professionals, we transcend conventional boundaries—crafting intuitive, user-centric solutions that captivate and resonate with audiences.",
     b1_title: "Art of Software Architecture",
     b1_description:"Dive into the captivating world of software architecture, where digital masterpieces are crafted through meticulous planning and ingenious design. Explore the fundamental principles that architects employ to create robust and scalable software solutions. From conceptualizing the initial design to mapping out intricate structures, this title promises an enlightening journey through the architectural wonders shaping the digital landscape.",    b1_img: "/images/API_COLOR.svg",
     b1_svg1: "Innovative Design Paradigms",
@@ -394,9 +391,8 @@ const services = [
     IconUrl: "/images/API_COLOR.svg",
     title: " API Development",
     description:
-      "We deliver responsive web apps, sites, and a seamless mobile experience for iOS and Android.",
-    overview:
-      "A pinnacle of transformative UX/UI design seamlessly merged with functional brilliance, redefining digital experiences. With an unwavering commitment to innovation and a skilled team, we elevate designs beyond aesthetics—crafting intuitive, user-centric interfaces that captivate and resonate.",
+      "We specialise in delivering dynamic API solutions, catering to responsive web apps, sites, and offering a seamless mobile experience across iOS and Android platforms.",
+    overview:"At the forefront of API development, we embrace transformative UX/UI principles seamlessly integrated with functional brilliance, reshaping digital interactions. With an unyielding dedication to innovation and a proficient team, we transcend traditional boundaries—forging intuitive, user-centric interfaces that engage and leave a lasting impact.",
     b1_title: "Tailored APIs, Tailored Success",
     b1_description:"Elevate your business with custom APIs tailored specifically for your needs. Our solutions seamlessly integrate, streamlining operations and freeing your team from mundane tasks. Designed for scalability, our APIs effortlessly adapt to market changes, ensuring your business stays agile and responsive. Experience the perfect blend of personalized design, operational efficiency, and adaptability—empowering your business to thrive in a dynamic environment.",
         b1_img: "/images/API_COLOR.svg",

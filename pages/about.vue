@@ -134,7 +134,7 @@
               <div class="md:border-r border-gray-200 px-12">
                 <p class="text-gray-600 mb-2 text-center">Founded</p>
                 <h2 class="text-4xl lg:text-5xl font-semibold text-center">
-                  2023
+                  2021
                 </h2>
               </div>
             </div>
@@ -142,7 +142,7 @@
               <div class="lg:border-r border-gray-200 px-12">
                 <p class="text-gray-600 mb-2 text-center">Total funding</p>
                 <h2 class="text-4xl lg:text-5xl font-semibold text-center">
-                  $9.6M
+                  $100K
                 </h2>
               </div>
             </div>
@@ -150,15 +150,15 @@
               <div class="md:border-r border-gray-200 px-12">
                 <p class="text-gray-600 mb-2 text-center">Team members</p>
                 <h2 class="text-4xl lg:text-5xl font-semibold text-center">
-                  110
+                  12
                 </h2>
               </div>
             </div>
             <div class="w-full md:w-1/2 lg:w-1/4 py-8">
               <div class="px-12">
-                <p class="text-gray-600 mb-2 text-center">Nationalities</p>
+                <p class="text-gray-600 mb-2 text-center">Projects Delivered</p>
                 <h2 class="text-4xl lg:text-5xl font-semibold text-center">
-                  24
+                  15+
                 </h2>
               </div>
             </div>
@@ -166,58 +166,7 @@
         </div>
       </div>
 
-      <div class="flex flex-wrap mb-32 -mx-4">
-        <div class="w-full lg:w-1/3 p-4">
-          <div
-            class="relative bg-no-repeat bg-cover rounded-3xl w-full max-w-sm mx-auto"
-            style="
-              height: 440px;
-              background-image: url('https://shuffle.dev/solstice-assets/images/about/men-picture.png');
-            "
-          >
-            <div
-              class="absolute bottom-0 left-0 bg-white rounded-tr-3xl rounded-bl-3xl px-6 py-3"
-            >
-              <h2 class="text-2xl font-bold font-heading mb-2">
-                David Petrucci
-              </h2>
-              <p class="text-sm text-gray-600">Founder &amp; CEO</p>
-            </div>
-          </div>
-        </div>
-        <div class="w-full lg:w-1/3 p-4">
-          <div
-            class="relative bg-no-repeat bg-cover rounded-3xl w-full max-w-sm mx-auto"
-            style="
-              height: 440px;
-              background-image: url('https://shuffle.dev/solstice-assets/images/about/woman-picture1.png');
-            "
-          >
-            <div
-              class="absolute bottom-0 left-0 bg-white rounded-tr-3xl rounded-bl-3xl px-6 py-3"
-            >
-              <h2 class="text-2xl font-bold font-heading mb-2">Malika Gil</h2>
-              <p class="text-sm text-gray-600">Operations Manager</p>
-            </div>
-          </div>
-        </div>
-        <div class="w-full lg:w-1/3 p-4">
-          <div
-            class="relative bg-no-repeat bg-cover rounded-3xl w-full max-w-sm mx-auto"
-            style="
-              height: 440px;
-              background-image: url('https://shuffle.dev/solstice-assets/images/about/woman-picture2.png');
-            "
-          >
-            <div
-              class="absolute bottom-0 left-0 bg-white rounded-tr-3xl rounded-bl-3xl px-6 py-3"
-            >
-              <h2 class="text-2xl font-bold font-heading mb-2">Erika Newton</h2>
-              <p class="text-sm text-gray-600">Growth Marketer</p>
-            </div>
-          </div>
-        </div>
-      </div>
+  
     </div>
   </section>
 
@@ -247,7 +196,7 @@
         </div>
         <div class="mt-3 sm:pe-8">
           <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-            Flowbite Library v1.0.0
+            Code StackUp v1.0.0
           </h3>
           <time
             class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
@@ -282,7 +231,7 @@
         </div>
         <div class="mt-3 sm:pe-8">
           <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-            Flowbite Library v1.2.0
+            Code StackUp v1.2.0
           </h3>
           <time
             class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
@@ -317,7 +266,7 @@
         </div>
         <div class="mt-3 sm:pe-8">
           <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-            Flowbite Library v1.3.0
+            Code StackUp v1.3.0
           </h3>
           <time
             class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
