@@ -22,12 +22,12 @@ export default defineNuxtConfig({
     head: {
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
-      title: 'Code StackUp',
+      title: 'Codestackup | Web Development Company',
       meta: [
         { hid: 'description', name: 'description', content: 'At CodeStackUp, we are all about building your digital dreams into reality. Whether you are a startup looking to establish your online presence or a seasoned business aiming to elevate your digital strategy, we have got the tools, expertise, and passion to make it happen.' },
-        { hid: 'og:title', property: 'og:title', content: 'Code StackUp' },
+        { hid: 'og:title', property: 'og:title', content: 'Codestackup' },
         { hid: 'og:description', property: 'og:description', content: 'At CodeStackUp, we are all about building your digital dreams into reality. Whether you are a startup looking to establish your online presence or a seasoned business aiming to elevate your digital strategy, weve got the tools, expertise, and passion to make it happen.' },
-        { hid: 'og:site_name', property: 'og:site_name', content: 'Code StackUp' },
+        { hid: 'og:site_name', property: 'og:site_name', content: 'Codestackup' },
         { hid: 'og:type', property: 'og:type', content: 'website' },
         { hid: 'og:image', property: 'og:image', content: '/icon/meta_logo.png'},
         { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
